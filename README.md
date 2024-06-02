@@ -27,6 +27,7 @@ There are no limitations in number of extra requests/threads
 - After unpacking the jmeter .zip file - open your_location_to_jmeter/apache-jmeter-5.6/bin
 - Run `jmeter` file (.bat extention)
 - Open File -> `test_second_user.jmx`
+- Edit `Simple Data Writer` in Test Plan and set where to write the results (your local path)
 - Press "Start"
 
 ## How to reformat `results` report created by jmeter
@@ -36,7 +37,10 @@ To reformat *timeStamp* data to *mm-dd-yyy* format in generated report - `result
 Install:
 - Python version 3.11.7 - https://www.python.org/downloads/
 - Create virtual environment - https://docs.python.org/3/library/venv.html
-- Run `scripts/reformat_results.py`
+
+Run:
+
+ `scripts/reformat_results.py`
 
 ## Structure of framework
 `test-plans` - Test plan files used by Apache Jmeter app.
