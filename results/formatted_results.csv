@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+06-01-2024,734,List Users,200,OK,Thread Group 1-1,text,True,,2359,132,2,2,https://gorest.co.in/public/v2/users,723,0,97
+06-01-2024,762,List Users,200,OK,Thread Group 1-2,text,True,,2369,132,2,2,https://gorest.co.in/public/v2/users,761,0,107
+06-01-2024,272,Get User Info,200,OK,Thread Group 1-1,text,True,,1078,140,2,2,https://gorest.co.in/public/v2/users/6919431,272,0,0
+06-01-2024,246,Get User Info,200,OK,Thread Group 1-2,text,True,,1078,140,2,2,https://gorest.co.in/public/v2/users/6919431,246,0,0
+06-01-2024,236,Get User Post,200,OK,Thread Group 1-1,text,True,,2169,146,2,2,https://gorest.co.in/public/v2/users/6919431/posts,236,0,0
+06-01-2024,258,Get User Post,200,OK,Thread Group 1-2,text,True,,2169,146,2,2,https://gorest.co.in/public/v2/users/6919431/posts,258,0,0
+06-01-2024,286,List Users,200,OK,Thread Group 1-1,text,True,,2369,132,2,2,https://gorest.co.in/public/v2/users,286,0,0
+06-01-2024,272,List Users,200,OK,Thread Group 1-2,text,True,,2367,132,2,2,https://gorest.co.in/public/v2/users,272,0,0
+06-01-2024,243,Get User Info,200,OK,Thread Group 1-1,text,True,,1076,140,2,2,https://gorest.co.in/public/v2/users/6919431,243,0,0
+06-01-2024,245,Get User Info,200,OK,Thread Group 1-2,text,True,,1078,140,2,2,https://gorest.co.in/public/v2/users/6919431,245,0,0
+06-01-2024,269,Get User Post,200,OK,Thread Group 1-1,text,True,,2173,146,2,2,https://gorest.co.in/public/v2/users/6919431/posts,269,0,0
+06-01-2024,268,Get User Post,200,OK,Thread Group 1-2,text,True,,2167,146,2,2,https://gorest.co.in/public/v2/users/6919431/posts,268,0,0
+06-01-2024,286,List Users,200,OK,Thread Group 1-1,text,True,,2367,132,2,2,https://gorest.co.in/public/v2/users,286,0,0
+06-01-2024,288,List Users,200,OK,Thread Group 1-2,text,True,,2363,132,2,2,https://gorest.co.in/public/v2/users,288,0,0
+06-01-2024,246,Get User Info,200,OK,Thread Group 1-1,text,True,,1078,140,2,2,https://gorest.co.in/public/v2/users/6919431,246,0,0
+06-01-2024,237,Get User Info,200,OK,Thread Group 1-2,text,True,,1084,140,2,2,https://gorest.co.in/public/v2/users/6919431,237,0,0
+06-01-2024,261,Get User Post,200,OK,Thread Group 1-1,text,True,,2173,146,2,2,https://gorest.co.in/public/v2/users/6919431/posts,260,0,0
+06-01-2024,258,Get User Post,200,OK,Thread Group 1-2,text,True,,2169,146,1,1,https://gorest.co.in/public/v2/users/6919431/posts,258,0,0
