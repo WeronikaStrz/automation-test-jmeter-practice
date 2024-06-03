@@ -1,20 +1,28 @@
 # Description
 
-This is an educational project owned by Weronika Strzelczyk. It is in development, during Python Academy GlobalLogic in 2024. The project contains automated tests in Jmeter.
+This is an educational project developed during Python Academy GlobalLogic in 2024. The project contains Jmeter automated tests.
 
-### Task details
-Business observed that sometimes posts of a second user per current day are missing.
+### Issue
+Business has observed that sometimes posts of a second user per current day are missing.
 
-To check this, You should:
+To reproduce:
+1. Get the user list from https://gorest.co.in/public/v2/users and find the second user's ID from the list. If the second user is not found, use default ID-10
+2. Get user details from https://gorest.co.in/public/v2/users/{id}
+3. Get user posts from https://gorest.co.in/public/v2/users/{id}/posts
 
-Create 3 requests:
-1. First request - should open https://gorest.co.in/public/v2/users and find second user on page (no id2, but second from the page)
-2. Second request - should open single user info (second user from previous request, if second user not found , use default id - 10)
-3. Third request - should open a single post page of the "second" user. Response shouldn’t contain “Resource not found" message.
-4. Generate 1 summary report for all requests. Data format in report should be mm-dd-yyyy
-5. Total time to process all requests/threads 46-60sec
-2 users, 3 loops.
-There are no limitations in number of extra requests/threads
+Expected behavior:
+
+- empty list in the user's post response
+
+Unexpected behavior:
+
+- "Resource not found" response
+
+Additional requirements:
+
+- generate 1 summary report. The data format in report should be mm-dd-yyyy,
+- total time to process all requests/threads 46-60sec, 2 users, 3 loops,
+- there are no limitations in number of extra requests/threads.
 
 
 ## How to set up the environment locally
@@ -48,7 +56,3 @@ Run:
 `results` - Jmeter's generated testing results
 
 `scripts` - Reports' postprocessing Python scripts
-
- ## Other info
- Ignored folders for git:
- - `venv`
